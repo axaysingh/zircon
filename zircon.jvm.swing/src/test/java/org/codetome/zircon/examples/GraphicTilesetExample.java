@@ -2,16 +2,11 @@ package org.codetome.zircon.examples;
 
 import org.codetome.zircon.api.Position;
 import org.codetome.zircon.api.Size;
-import org.codetome.zircon.api.builder.TerminalBuilder;
 import org.codetome.zircon.api.builder.TextCharacterBuilder;
-import org.codetome.zircon.api.font.Font;
 import org.codetome.zircon.api.resource.GraphicTilesetResource;
 import org.codetome.zircon.api.terminal.Terminal;
 import org.codetome.zircon.internal.font.impl.PickRandomMetaStrategy;
-import org.junit.Ignore;
-import org.junit.Test;
 
-import java.awt.image.BufferedImage;
 import java.util.Random;
 
 public class GraphicTilesetExample {

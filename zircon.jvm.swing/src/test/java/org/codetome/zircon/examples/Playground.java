@@ -11,7 +11,6 @@ import org.codetome.zircon.api.component.Panel;
 import org.codetome.zircon.api.component.builder.ButtonBuilder;
 import org.codetome.zircon.api.component.builder.ColorThemeBuilder;
 import org.codetome.zircon.api.component.builder.PanelBuilder;
-import org.codetome.zircon.api.font.Font;
 import org.codetome.zircon.api.graphics.Layer;
 import org.codetome.zircon.api.resource.CP437TilesetResource;
 import org.codetome.zircon.api.resource.REXPaintResource;

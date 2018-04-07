@@ -3,14 +3,10 @@ package org.codetome.zircon.examples;
 import org.codetome.zircon.api.Modifiers;
 import org.codetome.zircon.api.Position;
 import org.codetome.zircon.api.Size;
-import org.codetome.zircon.api.builder.TerminalBuilder;
 import org.codetome.zircon.api.builder.TextCharacterStringBuilder;
 import org.codetome.zircon.api.color.TextColorFactory;
-import org.codetome.zircon.api.font.Font;
 import org.codetome.zircon.api.graphics.TextCharacterString;
 import org.codetome.zircon.api.terminal.Terminal;
-import org.junit.Ignore;
-import org.junit.Test;
 
 import static org.codetome.zircon.api.color.ANSITextColor.*;
 import static org.codetome.zircon.api.resource.CP437TilesetResource.TAFFER_20X20;

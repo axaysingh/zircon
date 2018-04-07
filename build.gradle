@@ -23,6 +23,8 @@ buildscript {
 }
 
 ext {
+    nodeVersion = '8.9.4'
+    qunitVersion = '2.5.1'
     gdxVersion = '1.9.6'
     junitVersion = '4.12'
     mockitoVersion = '1.10.19'
@@ -33,8 +35,11 @@ ext {
     libraries = [
             kotlin_stdlib                 : "org.jetbrains.kotlin:kotlin-stdlib:$kotlinVersion",
             kotlin_stdlib_common          : "org.jetbrains.kotlin:kotlin-stdlib-common:$kotlinVersion",
+            kotlin_stdlib_js              : "org.jetbrains.kotlin:kotlin-stdlib-js:$kotlinVersion",
             kotlin_test_annotations_common: "org.jetbrains.kotlin:kotlin-test-annotations-common:$kotlinVersion",
             kotlin_test_common            : "org.jetbrains.kotlin:kotlin-test-common:$kotlinVersion",
+            kotlin_test_js                : "org.jetbrains.kotlin:kotlin-test-js:$kotlinVersion",
+            kotlin_test_junit             : "org.jetbrains.kotlin:kotlin-test-junit:$kotlinVersion",
             caffeine                      : "com.github.ben-manes.caffeine:caffeine:$caffeineVersion",
             snakeyaml                     : "org.yaml:snakeyaml:$snakeyamlVersion",
             filters                       : "com.jhlabs:filters:$filtersVersion",

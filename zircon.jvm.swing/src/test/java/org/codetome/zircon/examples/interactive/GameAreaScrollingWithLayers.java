@@ -1,11 +1,11 @@
 package org.codetome.zircon.examples.interactive;
 
+import org.codetome.zircon.examples.TerminalUtils;
 import org.codetome.zircon.api.Position;
 import org.codetome.zircon.api.Size;
 import org.codetome.zircon.api.Symbols;
 import org.codetome.zircon.api.TextCharacter;
 import org.codetome.zircon.api.builder.*;
-import org.codetome.zircon.api.color.ANSITextColor;
 import org.codetome.zircon.api.color.TextColorFactory;
 import org.codetome.zircon.api.component.Button;
 import org.codetome.zircon.api.component.Panel;
@@ -15,7 +15,6 @@ import org.codetome.zircon.api.component.builder.PanelBuilder;
 import org.codetome.zircon.api.game.GameArea;
 import org.codetome.zircon.api.game.Position3D;
 import org.codetome.zircon.api.game.Size3D;
-import org.codetome.zircon.examples.TerminalUtils;
 import org.codetome.zircon.api.graphics.TextImage;
 import org.codetome.zircon.api.input.InputType;
 import org.codetome.zircon.api.resource.CP437TilesetResource;

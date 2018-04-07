@@ -1,5 +1,6 @@
 package org.codetome.zircon.examples.interactive;
 
+import org.codetome.zircon.examples.TerminalUtils;
 import org.codetome.zircon.api.Modifiers;
 import org.codetome.zircon.api.Position;
 import org.codetome.zircon.api.Size;
@@ -19,7 +20,6 @@ import org.codetome.zircon.api.resource.GraphicTilesetResource;
 import org.codetome.zircon.api.screen.Screen;
 import org.codetome.zircon.api.terminal.Terminal;
 import org.codetome.zircon.api.terminal.config.CursorStyle;
-import org.codetome.zircon.examples.TerminalUtils;
 import org.codetome.zircon.internal.font.impl.PickRandomMetaStrategy;
 import org.codetome.zircon.internal.graphics.BoxType;
 

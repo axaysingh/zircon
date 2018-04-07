@@ -1,5 +1,6 @@
 package org.codetome.zircon.examples.interactive;
 
+import org.codetome.zircon.examples.TerminalUtils;
 import org.codetome.zircon.api.Position;
 import org.codetome.zircon.api.Size;
 import org.codetome.zircon.api.TextCharacter;
@@ -13,7 +14,6 @@ import org.codetome.zircon.api.input.KeyStroke;
 import org.codetome.zircon.api.resource.CP437TilesetResource;
 import org.codetome.zircon.api.screen.Screen;
 import org.codetome.zircon.api.terminal.Terminal;
-import org.codetome.zircon.examples.TerminalUtils;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,5 +1,6 @@
 package org.codetome.zircon.examples.interactive;
 
+import org.codetome.zircon.examples.TerminalUtils;
 import org.codetome.zircon.api.Position;
 import org.codetome.zircon.api.Size;
 import org.codetome.zircon.api.Symbols;
@@ -18,7 +19,6 @@ import org.codetome.zircon.api.resource.ColorThemeResource;
 import org.codetome.zircon.api.screen.Screen;
 import org.codetome.zircon.api.terminal.Terminal;
 import org.codetome.zircon.api.terminal.config.CursorStyle;
-import org.codetome.zircon.examples.TerminalUtils;
 import org.codetome.zircon.internal.graphics.BoxType;
 
 import java.awt.*;

@@ -2,12 +2,10 @@ package org.codetome.zircon.examples;
 
 import org.codetome.zircon.api.Size;
 import org.codetome.zircon.api.builder.DeviceConfigurationBuilder;
-import org.codetome.zircon.api.builder.TerminalBuilder;
 import org.codetome.zircon.api.color.TextColorFactory;
 import org.codetome.zircon.api.resource.PhysicalFontResource;
 import org.codetome.zircon.api.terminal.Terminal;
 import org.codetome.zircon.api.terminal.config.CursorStyle;
-import org.junit.Test;
 
 public class CursorExample {
 
